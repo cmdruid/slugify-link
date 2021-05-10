@@ -1,4 +1,4 @@
-// src/controller.js
+/** src/controller.js */
 
 import { connect } from 'src/db'
 

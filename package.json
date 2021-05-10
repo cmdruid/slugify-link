@@ -1,15 +1,23 @@
 {
   "name": "slugify-link",
   "version": "0.1.0",
-  "private": true,
+  "description": "Short URLs for your code projects.",
+  "keywords": [],
+  "author": "Christopher Scott",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "kill": "pkill -9 node"
   },
   "dependencies": {
+    "mongodb": "^3.6.6",
+    "nanoid": "^3.1.22",
     "next": "10.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "yup": "^0.32.9"
   }
 }

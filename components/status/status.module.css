@@ -1,0 +1,29 @@
+.status {
+  font-size: 0.9rem;
+  text-align: center;
+  height: 0;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0 auto 1rem auto;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.c100 {
+  background: rgb(0, 122, 223);
+  height: 2rem;
+  opacity: 1;
+}
+
+.c200 {
+  background:rgb(117 193 0);
+  height: 2rem;
+  opacity: 1;
+}
+
+.c400, .c409, .c500 {
+  background: rgb(208 0 0);
+  height: 2rem;
+  opacity: 1;
+}
